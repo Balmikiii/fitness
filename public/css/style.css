@@ -1,0 +1,165 @@
+body {
+  background-color: #dae2cb;
+  font-family: Open Sans;
+}
+body nav {
+  background-color: #dae2cb;
+}
+body nav .navbar-brand img {
+  width: 150px;
+  height: auto;
+}
+body nav ul li {
+  color: #102e16 !important;
+}
+body nav ul li a {
+  color: #565d47 !important;
+  font-size: 15px;
+}
+body nav ul.login li a {
+  color: #102e16 !important;
+  background-color: #c6d4b2 !important;
+  border: 1px solid #102e16 !important;
+}
+body .app_banner {
+  color: #102e16;
+}
+body .app_banner .contents h1 {
+  font-size: 60px;
+}
+body .app_banner .contents p {
+  text-align: justify;
+}
+body .app_banner .contents a.light {
+  color: #102e16;
+  background-color: #c6d4b2;
+  border: 1px solid #102e16;
+}
+body .app_banner .contents a.dark {
+  color: #dae2cb;
+  background-color: #102e16;
+  border: 1px solid #102e16;
+}
+body .ribben {
+  background-color: #102e16;
+  font-size: 13px;
+}
+body .ribben span {
+  font-size: 20px;
+  color: #fbfd99;
+}
+body .ribben a {
+  color: #fbfd99;
+}
+body .ribben .line {
+  border-left: 1px solid white;
+  height: 5.5rem;
+}
+body .our-services {
+  color: #102e16;
+}
+body .our-services a {
+  color: #dae2cb;
+  background-color: #102e16;
+  border: 1px solid #102e16;
+}
+body .team {
+  color: #102e16;
+}
+body .team .content {
+  background-color: #102e16;
+  border-radius: 25px;
+  height: 514px;
+}
+body .team .row > div {
+  border-radius: 25px;
+}
+body .team a {
+  color: #102e16;
+  background-color: #c6d4b2;
+}
+body .team img {
+  width: 370px;
+  height: auto;
+}
+body .testimonial .review {
+  background-color: #c6d4b2;
+  border-radius: 15px;
+  font-size: 15px;
+}
+body .clearmind > div {
+  background-color: #a6c088 !important;
+  border-radius: 15px;
+  position: relative;
+  height: 541px;
+}
+body .clearmind > div .content {
+  transform: translate(0, -50%);
+  top: 50%;
+  position: absolute;
+}
+body .clearmind > div img {
+  position: absolute;
+  top: -30px;
+  right: 10%;
+  width: 400px;
+  height: auto;
+}
+body .community .row .rounded {
+  border-radius: 15px !important;
+}
+body .community div.app-color {
+  color: #c6d4b2;
+  background-color: #102e16;
+}
+body .community div.app-color a {
+  background-color: #c6d4b2;
+}
+body .get_touch form input {
+  border: none;
+  border-bottom: 2px solid #102e16;
+  background-color: transparent;
+}
+body .get_touch form input:focus {
+  border: none;
+  border-bottom: 2px solid #102e16;
+  background-color: transparent;
+}
+body .get_touch form button {
+  background-color: #102e16;
+  color: #c6d4b2;
+}
+body .freq_question {
+  background-color: #102e16;
+}
+body .freq_question h1 span {
+  color: #fbfd99;
+}
+body .footer {
+  background-color: #c6d4b2;
+  color: #102e16;
+}
+body .footer img {
+  width: 150px;
+  height: auto;
+}
+body .footer form input {
+  border: none;
+  border-bottom: 2px solid #102e16;
+  background-color: transparent;
+}
+body .footer form input:focus {
+  border: none;
+  border-bottom: 2px solid #102e16;
+  background-color: transparent;
+}
+body .footer form button {
+  background-color: #102e16;
+  color: #c6d4b2;
+}
+body .footer ul {
+  line-height: 30px;
+}
+body .footer ul li a {
+  color: #102e16;
+}/*# sourceMappingURL=style.css.map */

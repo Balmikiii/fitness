@@ -1,0 +1,199 @@
+$background-color: #dae2cb;
+$background-second-color: #c6d4b2;
+$font-primary-color : #102e16;
+$font-second-color : #565d47;
+$app-font: Open Sans;
+$font-size: 15px;
+
+body {
+    background-color: $background-color;
+    font-family: $app-font;
+    nav{
+        background-color: $background-color;
+        .navbar-brand{
+            img{
+                width: 150px;
+                height: auto;
+            }
+        }
+        ul{
+            li{
+                color: $font-primary-color !important;
+                a{
+                    color: $font-second-color !important;
+                    font-size: 15px;
+                }
+            }
+        }
+        ul.login{
+            li{
+                a{
+                    color: $font-primary-color !important;
+                    background-color: $background-second-color !important;
+                    border: 1px solid $font-primary-color !important;
+                }
+            }
+        }
+    }
+    .app_banner{
+        color: $font-primary-color;
+        .contents{
+            h1{
+                font-size: 60px;
+            }
+            p{
+                text-align: justify;
+            }
+            a.light{
+                color: $font-primary-color;
+                background-color: $background-second-color;
+                border: 1px solid $font-primary-color;
+            }
+            a.dark{
+                color: $background-color;
+                background-color: $font-primary-color;
+                border: 1px solid $font-primary-color;
+            }
+        }
+        
+    }
+    .ribben{
+        background-color: $font-primary-color;
+        font-size: 13px;
+        span{
+            font-size: 20px;
+            color: #fbfd99;
+        }
+        a{
+            color: #fbfd99;
+        }
+        .line{
+            border-left: 1px solid #ffff;
+            height: 5.5rem;
+        }
+    }
+    .our-services{
+        color: $font-primary-color;
+        a{
+            color: $background-color;
+            background-color: $font-primary-color;
+            border: 1px solid $font-primary-color;
+        }
+    }
+    .team{
+        color: $font-primary-color;
+        .content{
+            background-color: $font-primary-color;
+            border-radius: 25px;
+            height: 514px;
+        }
+        .row>div{
+            border-radius: 25px;
+        }
+        a{
+            color: $font-primary-color;
+            background-color: $background-second-color;
+        }
+        img{
+            width: 370px;
+            height: auto;
+        }
+    }
+    .testimonial{
+        .review{
+            background-color: $background-second-color;
+            border-radius: 15px;
+            font-size: $font-size;
+        }
+    }
+    .clearmind>div{
+        background-color: #a6c088 !important;
+        border-radius: 15px;
+        position: relative;
+        height: 541px;
+        .content{
+            transform: translate(0, -50%);
+            top: 50%;
+            position: absolute;
+        }
+        img{
+            position: absolute;
+            top: -30px;
+            right: 10%;
+            width: 400px;
+            height: auto;
+        }
+    }
+    .community{
+        .row{
+            .rounded{
+                border-radius: 15px !important;
+            }
+        }
+        div.app-color{
+            color: $background-second-color;
+            background-color: $font-primary-color;
+            a{
+                background-color: $background-second-color;
+            }
+        }
+    }
+    .get_touch{
+        form{
+            input{
+                border: none;
+                border-bottom: 2px solid $font-primary-color;
+                background-color: transparent;
+            }
+            input:focus{
+                border: none;
+                border-bottom: 2px solid $font-primary-color;
+                background-color: transparent;
+            }
+            button{
+                background-color: $font-primary-color;
+                color: $background-second-color;
+            }
+        }
+    }
+    .freq_question{
+        background-color: $font-primary-color;
+        h1{
+            span{
+                color: #fbfd99;
+            }
+        }
+    }
+    .footer{
+        background-color: $background-second-color;
+        color: $font-primary-color;
+        img{
+            width: 150px;
+            height: auto
+        };
+        form{
+            input{
+                border: none;
+                border-bottom: 2px solid $font-primary-color;
+                background-color: transparent;
+            }
+            input:focus{
+                border: none;
+                border-bottom: 2px solid $font-primary-color;
+                background-color: transparent;
+            }
+            button{
+                background-color: $font-primary-color;
+                color: $background-second-color;
+            }
+        }
+        ul{
+            line-height: 30px;
+            li{
+            a{
+                color: $font-primary-color;
+            }
+        }
+        }
+    }
+}
