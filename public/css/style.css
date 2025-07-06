@@ -165,4 +165,11 @@ body .footer ul {
 }
 body .footer ul li a {
   color: #102e16;
+}
+
+@media only screen and (max-width: 768px) {
+  html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
 }/*# sourceMappingURL=style.css.map */

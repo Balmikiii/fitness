@@ -1,11 +1,11 @@
 <div class="container-fluid get_touch py-5 mb-5">
     <div class="row w-75 mx-auto">
-        <div class="col-sm-7">
+        <div class="col-md-7">
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-md-6">
                     <img src="{{asset('images/rooms/practice-1.gif')}}" class="img-fluid rounded-circle" alt="room practice">
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 d-none d-md-block">
                     <div class="row">
                         <div class="col-sm-6">
                             <img src="{{asset('images/rooms/practice-2.gif')}}" class="img-fluid rounded-circle" alt="">
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-5">
+        <div class="col-md-5 mt-5 mt-md-0">
             <h2>Get in Touch</h2>
             <p>I want to help you overcome all mental and physical hurdles in your everyday life. 6 Years ago, I was electrocuted with 277 volts.</p>
             <form action="#">

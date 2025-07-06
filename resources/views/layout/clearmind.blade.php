@@ -4,6 +4,6 @@
             <h1 class="mb-5">Clearmind, your partner in mental wellness</h1>
             <p>Find and book your favorite yoga classes from anywhere with our yoga app.</p>
         </div>
-        <img src="{{asset('images/device.gif')}}" alt="">
+        <img src="{{asset('images/device.gif')}}" class="d-none d-md-block" alt="">
     </div>
 </div>
