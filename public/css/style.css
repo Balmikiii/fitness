@@ -87,6 +87,9 @@ body .testimonial .review {
   border-radius: 15px;
   font-size: 15px;
 }
+body .clearmind {
+  margin-top: 120px !important;
+}
 body .clearmind > div {
   background-color: #a6c088 !important;
   border-radius: 15px;
